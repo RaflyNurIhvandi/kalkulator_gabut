@@ -1,0 +1,86 @@
+.kotak-luar{
+    background-color: rgb(73, 248, 87);
+    width: 400px;
+    margin-top: 20px;
+    border: 2.5px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
+.kotak-angka{
+    background-color: rgb(223, 255, 244);
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.1);
+}
+.isi{
+    font-size: 40px;
+}
+.baris-1,
+.baris-2,
+.baris-3,
+.baris-4,
+.baris-5{
+    display: flex;
+    margin-top: 4px;
+}
+.tombol{
+    font-size: 30px;
+}
+.clear,
+.bagi,
+.angka-1,
+.angka-2,
+.angka-3,
+.angka-4,
+.angka-5,
+.angka-6,
+.angka-7,
+.angka-8,
+.angka-9,
+.kali,
+.bagi,
+.kurang,
+.tambah,
+.hasil,
+.titik,
+.nol{
+    background-color: rgb(27, 230, 27);
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.bagi,
+.kali,
+.kurang,
+.tambah,
+.hasil{
+    width: 96px;
+}
+.angka-1,
+.angka-2,
+.angka-3,
+.angka-4,
+.angka-5,
+.angka-6,
+.angka-7,
+.angka-8,
+.angka-9,
+.titik{
+    width: 96px;
+    margin-right: 4px;
+}
+.clear{
+    width: 302px;
+    margin-right: 4px;
+}
+.nol{
+    width: 198px;
+    margin-right: 4px;
+}
+.copy{
+    margin-top: 20px;
+}
